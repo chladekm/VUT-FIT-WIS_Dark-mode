@@ -12,16 +12,16 @@ Tyto styly aplikují **tmavý režim** (dark mode) na infomační systém fakult
 
 Originální vzhled          |  Po aplikování stylů
 :-------------------------:|:-------------------------:
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_0.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_0.png)
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_1.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_1.png)
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_2.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_2.png)
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_3.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_3.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_0.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_0.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_1.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_1.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_2.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_2.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_3.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_3.png)
 
 ## Instalace
 
 Jedná se o koncept, kdy je potřeba pro určitou URL aplikovat vlastní styly. V prohlížeči Chrome je možné toho docílit instalací některého z rozšíření z [*Chrome Web Store*](https://chrome.google.com/webstore/category/extensions).
 
-Veškeré styly jsou definovány v souboru [*WIS-darkmode-style.css*](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/src/WIS-darkmode-style.css)
+Veškeré styly jsou definovány v souboru [*WIS-darkmode-style.css*](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/src/WIS-darkmode-style.css)
 
 Aplikace stylů byla testována s rozšířením [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) ze zmíněného obchodu.  
 
