@@ -12,10 +12,10 @@ Tyto styly aplikují **tmavý režim** (dark mode) na infomační systém fakult
 
 Originální vzhled          |  Po aplikování stylů
 :-------------------------:|:-------------------------:
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/Before/old_wis_0.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/After/wis_0.png)
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/Before/old_wis_1.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/After/wis_1.png)
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/Before/old_wis_2.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/After/wis_2.png)
-![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/Before/old_wis_3.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/Samples/After/wis_3.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_0.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_0.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_1.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_1.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_2.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_2.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/Before/old_wis_3.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/img/After/wis_3.png)
 
 ## Instalace
 
