@@ -1,0 +1,387 @@
+body,
+.stabs,
+.res {
+    background-color: #2b2b2b !important;
+}
+
+* {
+    color: whitesmoke;
+}
+
+table[bordercolor="#999999"] *,
+.table-holder table *,
+.stbl *,
+select,
+option {
+    color: black;
+}
+
+.sbtn,
+.sbtng,
+.sbtno {
+    box-shadow: none;
+}
+
+/* title */
+h1 {
+    padding-left: 40px;
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+/* clock */
+#clock {
+    padding-top: 20px;
+    padding-right: 20px;
+    font-variant: small-caps;
+}
+
+/********** Main content **********/
+.content {
+    padding-left: 40px !important;
+    border: none;
+}
+.sbb {
+    margin-left: -40px;
+}
+
+/* Blue menu items */
+.sbtn,
+.sbtno {
+    background-color: rgb(13, 116, 134);
+}
+.sbtn:hover,
+.sbtng:hover,
+.sbtno:hover {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+/* Green menu items */
+.sbtng {
+    background-color: rgb(35, 116, 15);
+}
+
+hr {
+    border-top: 1px solid gray;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: -10px;
+    margin-right: 40px;
+    display: block;
+    width: calc(100% - 80px);
+    float: left;
+}
+
+/********* News ************/
+
+.news-title {
+    background-color: rgb(13, 116, 134) !important;
+}
+
+.news-title span {
+    color: whitesmoke;
+}
+
+/********** Navbar ***********/
+
+.sbb li div {
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mitem,
+.mitembg {
+    border: none;
+    background-color: black;
+}
+
+.mitem > .stab:hover,
+.mitembg > .stab:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 2px 0px 0px #00a9e0;
+    -moz-box-shadow: 0px 2px 0px 0px #00a9e0;
+    box-shadow: 0px 2px 0px 0px #00a9e0;
+}
+
+.mitem a,
+.mitembg a {
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+/********** Footer **********/
+address {
+    display: none;
+}
+
+/********** Tables **********/
+
+.table-holder table,
+.stbl {
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+td,
+th {
+    border: none !important;
+}
+
+.table-holder table tr[bgcolor="#ADD8E6"],
+.stbl tbody tr th,
+tr[bgcolor="#ADD8E6"] th font b,
+tr[bgcolor="#ADD8E6"] th a,
+tr[bgcolor="#ADD8E6"] th {
+    background-color: rgb(13, 116, 134);
+    font-weight: normal;
+    font-variant: small-caps;
+    color: whitesmoke;
+}
+
+.table-holder table tr[bgcolor="#ADD8E6"] * {
+    font-weight: normal;
+    font-variant: small-caps;
+    color: whitesmoke;
+}
+
+.table-holder table th {
+    text-align: center;
+}
+
+.table-holder table th,
+.table-holder table td,
+.table-holder table td a,
+.table-holder table td b,
+.stbl td,
+.stbl a,
+.stbl b {
+    vertical-align: middle;
+    padding: 10px;
+    background: none;
+}
+
+/********** MailForm **********/
+
+forn[name="mailform"] p {
+    border: 10px solid pink;
+}
+
+/********** Buttons **********/
+
+.btn,
+button,
+input[type="button"],
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    color: whitesmoke;
+}
+.btn:hover,
+.forminput:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    border: 2px solid #00a9e0;
+}
+
+/********* Wiki ********/
+
+table[bgcolor="white"] * {
+    background-color: #2b2b2b;
+    color: whitesmoke;
+}
+
+/* Navigation panel */
+.rightpane .bar .bar_menu li,
+.rightpane .bar .bar_menu .selected {
+    background-color: rgb(13, 116, 134);
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.rightpane .bar .bar_menu li:hover,
+.rightpane .bar .bar_menu .selected:hover {
+    background-color: rgb(9, 71, 82) !important;
+}
+
+.bar_menu {
+    margin-top: 5px;
+}
+
+.rightpane .page a {
+    color: rgb(133, 203, 216) !important;
+}
+
+.rightpane .page a:hover {
+    text-decoration: underline;
+    background: none;
+}
+
+.rightpane .page .anchor {
+    color: whitesmoke;
+}
+
+.rightpane .page .anchor :hover {
+    color: whitesmoke;
+    background: none;
+    text-decoration: none;
+}
+
+.rightpane .page {
+    background-color: #1b1b1b !important;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* page navigation */
+.res tbody tr[valign="top"] td[style="background-color: #f0f0f0"] {
+    background-color: #2b2b2b;
+}
+
+#toolbar .tb_main,
+table.toc {
+    background-color: #4d4d4d;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: auto;
+    display: block;
+}
+
+#toolbar .tb_main a:hover {
+    text-decoration: underline;
+    background: none;
+}
+
+div.toc {
+    background-color: #4d4d4d;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: auto;
+    display: block;
+}
+
+div.toc table.toc tbody tr *,
+textarea[name="wikitext"] {
+    background-color: #4d4d4d;
+}
+
+#qsearch {
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+}
+
+.doc,
+a[title="Nahoru"] {
+    padding-top: 20px;
+}
+
+/********* Global restyling *********/
+
+*[bgcolor="lightblue"],
+*[bgcolor="#f0f8f0"],
+*[style*="background-color: #ADD8E6"] {
+    background-color: rgb(13, 116, 134) !important;
+}
+
+*[style*="background: white"],
+*[bgcolor="white"] {
+    background-color: #cecece !important;
+}
+
+*[style*="background-color: #f0f0f0"] {
+    background-color: #4d4d4d !important;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+}
+
+table[border="1"] {
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table[border="1"] td,
+table[border="1"] th {
+    padding: 10px;
+}
+
+.calendar * {
+    color: black;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+.forminput {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke !important;
+    border: 2px solid transparent;
+    color: black;
+}
+
+/********** Redefinition of used colors **********/
+
+tr[bgcolor="#add8e6"] *,
+tr[bgcolor="#dfe7cf"] * {
+    color: black;
+}
+
+*[bgcolor="#aff7af"],
+*[bgcolor="#f7f7af"],
+*[bgcolor="#ffdead"] {
+    color: black !important;
+}
+*[bgcolor="white"] *,
+*[bgcolor="#fff8dc"] *,
+*[bgcolor="lightblue"] *,
+*[bgcolor="#fff8dc"] *,
+*[bgcolor="#e8e8e8"] *,
+*[bgcolor="#aff7af"] *,
+*[bgcolor="#f7f7af"] *,
+*[bgcolor="#ffdead"] * {
+    color: black !important;
+}
+
+span[style="color:#008f00"] b,
+span[style="color:#008f00"],
+*[color="green"],
+*[color="green"] *,
+font[color="green"] b,
+font[color="green"],
+.green b,
+.green {
+    color: #008f00 !important;
+}
+
+.red,
+.red b,
+span.red {
+    color: red !important;
+}
+
+/* Full width tables (schedules, etc...) */
+
+table[bordercolor="#999999"][width="100%"] {
+    border-collapse: collapse;
+}
+
+table[bordercolor="#999999"][width="100%"] td {
+    border: 1px solid lightgrey;
+}
