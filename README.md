@@ -21,7 +21,7 @@ Originální vzhled          |  Po aplikování stylů
 
 Jedná se o koncept, kdy je potřeba pro určitou URL aplikovat vlastní styly. V prohlížeči Chrome je možné toho docílit instalací některého z rozšíření z [*Chrome Web Store*](https://chrome.google.com/webstore/category/extensions).
 
-Veškeré styly jsou definovány v souboru [*WIS-darkmode-style.css*](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/WIS-darkmode-style.css)
+Veškeré styly jsou definovány v souboru [*WIS-darkmode-style.css*](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode-Redesign/blob/master/src/WIS-darkmode-style.css)
 
 Aplikace stylů byla testována s rozšířením [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) ze zmíněného obchodu.  
 
