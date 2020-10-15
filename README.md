@@ -16,6 +16,7 @@ Originální vzhled          |  Po aplikování stylů
 ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_1.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_1.png)
 ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_2.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_2.png)
 ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_3.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_3.png)
+![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/Before/old_wis_4.png) | ![](https://github.com/chladekm/VUT-FIT-WIS_Dark-mode/blob/master/img/After/wis_4.png)
 
 ## Instalace
 
