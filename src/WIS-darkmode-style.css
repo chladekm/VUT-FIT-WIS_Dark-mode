@@ -18,6 +18,34 @@ option {
     color: black;
 }
 
+/********** Sing-in page **********/
+
+img[src="/images/fitnewben.png"],
+img[src="/images/fitnewb.png"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 370px;
+    height: 84px;
+    padding-left: 370px;
+}
+
+img[src="/images/fitnewb.png"] {
+    background: url(https://raw.githubusercontent.com/chladekm/VUT-FIT-WIS_Dark-mode/master/img/Assets/fitnewb.png)
+        no-repeat;
+    background-size: cover;
+}
+
+img[src="/images/fitnewben.png"] {
+    background: url(https://raw.githubusercontent.com/chladekm/VUT-FIT-WIS_Dark-mode/master/img/Assets/fitnewben.png)
+        no-repeat;
+    background-size: cover;
+}
+
+table[class="noprint"][style="background-color: #00a9e0"] {
+    background-color: black;
+}
+
 /********** Main content **********/
 
 /* Main title on every page */
