@@ -43,8 +43,8 @@ img[src="/images/fitnewben.png"] {
 }
 
 table[class="noprint"][style="background-color: #00a9e0"] {
-  background-color: black;
-  background: linear-gradient(36deg, rgba(0,169,224,1) 5%, rgba(0,98,128,1) 48%, rgba(0,49,62,1) 100%);
+    background-color: black;
+    background: linear-gradient(36deg, rgba(0, 169, 224, 1) 5%, rgba(0, 98, 128, 1) 48%, rgba(0, 49, 62, 1) 100%);
 }
 
 /********** Main content **********/
@@ -200,26 +200,6 @@ tr[bgcolor="#ADD8E6"] th {
     background: none;
 }
 
-/********** Buttons **********/
-
-.btn,
-button,
-input[type="button"],
-input[type="submit"] {
-    padding: 10px;
-    border-radius: 10px;
-    background-color: black;
-    margin: 10px 0;
-    border: 2px solid transparent;
-    color: whitesmoke;
-}
-.btn:hover,
-.forminput:hover,
-input[type="button"]:hover,
-input[type="submit"]:hover {
-    border: 2px solid #00a9e0;
-}
-
 /********** Wiki page **********/
 
 table[bgcolor="white"] * {
@@ -353,17 +333,6 @@ table[border="1"] th {
     color: black;
 }
 
-input[type="text"],
-input[type="password"],
-select,
-.forminput {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: whitesmoke !important;
-    border: 2px solid transparent;
-    color: black;
-}
-
 /********** Redefinition of used colors **********/
 
 tr[bgcolor="#add8e6"] *,
@@ -445,4 +414,37 @@ form[action="/FIT/st/studyps-l.php.cs"] table[bordercolor="#999999"] td:not([bgc
 table[bordercolor="#999999"][width="100%"] tbody tr:first-child td:not([bgcolor]) {
     background-color: rgb(13, 116, 134);
     border: none;
+}
+
+/********** Buttons **********/
+
+.btn,
+button,
+input[type="button"],
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    color: whitesmoke !important;
+}
+.btn:hover,
+.forminput:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    border: 2px solid #00a9e0;
+}
+
+/********** Inputs **********/
+
+input[type="text"],
+input[type="password"],
+select,
+.forminput {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke !important;
+    border: 2px solid transparent;
+    color: black;
 }
