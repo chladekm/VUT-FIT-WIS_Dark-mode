@@ -3,169 +3,179 @@
 body,
 .stabs,
 .res {
-    background-color: #2b2b2b !important;
+  background-color: #2b2b2b !important;
 }
 
 * {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 table[bordercolor="#999999"] *,
 .table-holder table *,
 .stbl *,
+pre *,
 select,
 option {
-    color: black;
+  color: black;
 }
 
 /********** Sing-in page **********/
 
 img[src="/images/fitnewben.png"],
 img[src="/images/fitnewb.png"] {
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 370px;
-    height: 84px;
-    padding-left: 370px;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 370px;
+  height: 84px;
+  padding-left: 370px;
 }
 
 img[src="/images/fitnewb.png"] {
-    background: url(https://raw.githubusercontent.com/chladekm/VUT-FIT-WIS_Dark-mode/master/img/Assets/fitnewb.png)
-        no-repeat;
-    background-size: cover;
+  background: url(https://raw.githubusercontent.com/chladekm/VUT-FIT-WIS_Dark-mode/master/img/Assets/fitnewb.png)
+    no-repeat;
+  background-size: cover;
 }
 
 img[src="/images/fitnewben.png"] {
-    background: url(https://raw.githubusercontent.com/chladekm/VUT-FIT-WIS_Dark-mode/master/img/Assets/fitnewben.png)
-        no-repeat;
-    background-size: cover;
+  background: url(https://raw.githubusercontent.com/chladekm/VUT-FIT-WIS_Dark-mode/master/img/Assets/fitnewben.png)
+    no-repeat;
+  background-size: cover;
 }
 
 table[class="noprint"][style="background-color: #00a9e0"] {
-    background-color: black;
-    background: linear-gradient(36deg, rgba(0, 169, 224, 1) 5%, rgba(0, 98, 128, 1) 48%, rgba(0, 49, 62, 1) 100%);
+  background-color: black;
+  background: linear-gradient(
+    36deg,
+    rgba(0, 169, 224, 1) 5%,
+    rgba(0, 98, 128, 1) 48%,
+    rgba(0, 49, 62, 1) 100%
+  );
 }
 
 /********** Main content **********/
 
 /* Main title on every page */
 h1 {
-    padding-left: 40px;
-    padding-top: 20px;
-    font-weight: normal;
-    font-size: 200%;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-weight: normal;
+  font-size: 200%;
 }
 
 /* Clock on the right top corner */
 #clock {
-    padding-top: 20px;
-    padding-right: 20px;
-    font-variant: small-caps;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-variant: small-caps;
 }
 
 /* Content container */
 .content {
-    padding-left: 40px !important;
-    border: none;
+  padding-left: 40px !important;
+  border: none;
 }
 .sbb {
-    margin-left: -40px;
+  margin-left: -40px;
 }
 
 /* Menu items */
 .sbtn,
 .sbtng,
 .sbtno {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 /* Blue menu items */
 .sbtn,
 .sbtno {
-    background-color: rgb(13, 116, 134);
+  background-color: rgb(13, 116, 134);
 }
 .sbtn:hover,
 .sbtng:hover,
 .sbtno:hover {
-    -webkit-filter: brightness(80%);
-    filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 /* Green menu items */
 .sbtng {
-    background-color: rgb(35, 116, 15);
+  background-color: rgb(35, 116, 15);
 }
 
 /* Horizontal line in assessment */
 hr {
-    border-top: 1px solid gray;
-    opacity: 0.7;
-    padding: 10px;
-    margin-top: -10px;
-    margin-right: 40px;
-    display: block;
-    width: calc(100% - 80px);
-    float: left;
+  border-top: 1px solid gray;
+  opacity: 0.7;
+  padding: 10px;
+  margin-top: -10px;
+  margin-right: 40px;
+  display: block;
+  width: calc(100% - 80px);
+  float: left;
+}
+
+.copyPaste {
+  color: black !important;
 }
 
 /********* News section ************/
 
 .news-title {
-    background-color: rgb(13, 116, 134) !important;
+  background-color: rgb(13, 116, 134) !important;
 }
 
 .news-title span {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 /********** Navbar ***********/
 
 .sbb li div {
-    opacity: 0.7;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  opacity: 0.7;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .mitem,
 .mitembg {
-    border: none;
-    background-color: black;
+  border: none;
+  background-color: black;
 }
 
 .mitem > .stab:hover,
 .mitembg > .stab:hover {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    -webkit-box-shadow: 0px 2px 0px 0px #00a9e0;
-    -moz-box-shadow: 0px 2px 0px 0px #00a9e0;
-    box-shadow: 0px 2px 0px 0px #00a9e0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 2px 0px 0px #00a9e0;
+  -moz-box-shadow: 0px 2px 0px 0px #00a9e0;
+  box-shadow: 0px 2px 0px 0px #00a9e0;
 }
 
 .mitem a,
 .mitembg a {
-    font-weight: normal;
-    font-variant: small-caps;
+  font-weight: normal;
+  font-variant: small-caps;
 }
 
 /********** Footer **********/
 address {
-    display: none;
+  display: none;
 }
 
 /********** Tables **********/
 
 .table-holder table,
 .stbl {
-    border-collapse: collapse;
-    border-radius: 10px;
-    overflow: hidden;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 td,
 th {
-    border: none !important;
+  border: none !important;
 }
 
 .table-holder table tr[bgcolor="#ADD8E6"],
@@ -173,20 +183,20 @@ th {
 tr[bgcolor="#ADD8E6"] th font b,
 tr[bgcolor="#ADD8E6"] th a,
 tr[bgcolor="#ADD8E6"] th {
-    background-color: rgb(13, 116, 134);
-    font-weight: normal;
-    font-variant: small-caps;
-    color: whitesmoke;
+  background-color: rgb(13, 116, 134);
+  font-weight: normal;
+  font-variant: small-caps;
+  color: whitesmoke;
 }
 
 .table-holder table tr[bgcolor="#ADD8E6"] * {
-    font-weight: normal;
-    font-variant: small-caps;
-    color: whitesmoke;
+  font-weight: normal;
+  font-variant: small-caps;
+  color: whitesmoke;
 }
 
 .table-holder table th {
-    text-align: center;
+  text-align: center;
 }
 
 .table-holder table th,
@@ -195,106 +205,118 @@ tr[bgcolor="#ADD8E6"] th {
 .stbl td,
 .stbl a,
 .stbl b {
-    vertical-align: middle;
-    padding: 10px;
-    background: none;
+  vertical-align: middle;
+  padding: 10px;
+  background: none;
+}
+
+td[bgcolor="#dedede"] {
+  background-color: rgb(13, 116, 134);
+}
+
+td[bgcolor="lightgreen"] {
+  background-color: #339933;
+}
+
+td[bgcolor="#e0e0e0"] {
+  background-color: #666666;
 }
 
 /********** Wiki page **********/
 
 table[bgcolor="white"] * {
-    background-color: #2b2b2b;
-    color: whitesmoke;
+  background-color: #2b2b2b;
+  color: whitesmoke;
 }
 
 /* Wiki navigation panel */
 .rightpane .bar .bar_menu li,
 .rightpane .bar .bar_menu .selected {
-    background-color: rgb(13, 116, 134);
-    padding: 7px;
-    border: none;
-    border-radius: 5px;
+  background-color: rgb(13, 116, 134);
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
 }
 
 .rightpane .bar .bar_menu li:hover,
 .rightpane .bar .bar_menu .selected:hover {
-    background-color: rgb(9, 71, 82) !important;
+  background-color: rgb(9, 71, 82) !important;
 }
 
 .bar_menu {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .rightpane .page a {
-    color: rgb(133, 203, 216) !important;
+  color: rgb(133, 203, 216) !important;
 }
 
 .rightpane .page a:hover {
-    text-decoration: underline;
-    background: none;
+  text-decoration: underline;
+  background: none;
 }
 
 .rightpane .page .anchor {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .rightpane .page .anchor :hover {
-    color: whitesmoke;
-    background: none;
-    text-decoration: none;
+  color: whitesmoke;
+  background: none;
+  text-decoration: none;
 }
 
 .rightpane .page {
-    background-color: #1b1b1b !important;
-    border: none;
-    border-radius: 10px;
-    padding: 30px;
+  background-color: #1b1b1b !important;
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 /* Wiki page navigation */
 .res tbody tr[valign="top"] td[style="background-color: #f0f0f0"] {
-    background-color: #2b2b2b;
+  background-color: #2b2b2b;
 }
 
 #toolbar .tb_main,
 table.toc {
-    background-color: #4d4d4d;
-    border: none;
-    border-radius: 10px;
-    padding: 20px;
-    overflow: auto;
-    display: block;
+  background-color: #4d4d4d;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+  display: block;
 }
 
 #toolbar .tb_main a:hover {
-    text-decoration: underline;
-    background: none;
+  text-decoration: underline;
+  background: none;
 }
 
 div.toc {
-    background-color: #4d4d4d;
-    border: none;
-    border-radius: 10px;
-    padding: 5px;
-    overflow: auto;
-    display: block;
+  background-color: #4d4d4d;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  overflow: auto;
+  display: block;
 }
 
 div.toc table.toc tbody tr *,
 textarea[name="wikitext"] {
-    background-color: #4d4d4d;
+  background-color: #4d4d4d;
 }
 
 #qsearch {
-    width: 90%;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 5px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
 }
 
 .doc,
 a[title="Nahoru"] {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /********** Global restyling **********/
@@ -302,48 +324,60 @@ a[title="Nahoru"] {
 *[bgcolor="lightblue"],
 *[bgcolor="#f0f8f0"],
 *[style*="background-color: #ADD8E6"] {
-    background-color: rgb(13, 116, 134) !important;
+  background-color: rgb(13, 116, 134) !important;
 }
 
 *[style*="background: white"],
 *[bgcolor="white"] {
-    background-color: #cecece !important;
+  background-color: #cecece !important;
 }
 
 *[style*="background-color: #f0f0f0"] {
-    background-color: #4d4d4d !important;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    display: block;
+  background-color: #4d4d4d !important;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  display: block;
 }
 
 table[border="1"] {
-    border-collapse: collapse;
-    border-radius: 10px;
-    overflow: hidden;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 table[border="1"] td,
 table[border="1"] th {
-    padding: 10px;
+  padding: 10px;
 }
 
 .calendar * {
-    color: black;
+  color: black;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="textarea"],
+select,
+.forminput {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: whitesmoke !important;
+  border: 2px solid transparent;
+  color: black;
 }
 
 /********** Redefinition of used colors **********/
 
 tr[bgcolor="#add8e6"] *,
 tr[bgcolor="#dfe7cf"] * {
-    color: black;
+  color: black;
 }
 
 *[bgcolor="#aff7af"],
 *[bgcolor="#f7f7af"],
 *[bgcolor="#ffdead"] {
-    color: black !important;
+  color: black !important;
 }
 *[bgcolor="white"] *,
 *[bgcolor="#fff8dc"] *,
@@ -353,7 +387,7 @@ tr[bgcolor="#dfe7cf"] * {
 *[bgcolor="#aff7af"] *,
 *[bgcolor="#f7f7af"] *,
 *[bgcolor="#ffdead"] * {
-    color: black !important;
+  color: black !important;
 }
 
 span[style="color:#008f00"] b,
@@ -364,56 +398,66 @@ font[color="green"] b,
 font[color="green"],
 .green b,
 .green {
-    color: #008f00 !important;
+  color: #008f00 !important;
 }
 
 .red,
 .red b,
 span.red {
-    color: red !important;
+  color: red !important;
 }
 
 /********** Full width tables (schedules, etc...) **********/
 
 table[bordercolor="#999999"][width="100%"],
 form[action="/FIT/st/studyps-l.php.cs"] table {
-    border-collapse: collapse;
-    width: calc(100% - 40px);
+  border-collapse: collapse;
+  width: calc(100% - 40px);
 }
 
 table[bordercolor="#999999"][width="100%"] td,
 form[action="/FIT/st/studyps-l.php.cs"] table[bordercolor="#999999"] td {
-    border: 1px solid rgb(119, 119, 119);
-    padding: 5px;
+  border: 1px solid rgb(119, 119, 119);
+  padding: 5px;
 }
 
 table[bordercolor="#999999"][width="100%"] th,
 table[bordercolor="#999999"][width="100%"] tr[bgcolor="#ADD8E6"] td,
 form[action="/FIT/st/studyps-l.php.cs"] table[bordercolor="#999999"] th {
-    background-color: rgb(13, 116, 134);
-    font-weight: normal;
-    font-variant: small-caps;
-    color: whitesmoke;
-    padding: 5px;
-    border-bottom: 1px solid whitesmoke;
+  background-color: rgb(13, 116, 134);
+  font-weight: normal;
+  font-variant: small-caps;
+  color: whitesmoke;
+  padding: 5px;
+  border-bottom: 1px solid whitesmoke;
 }
 
 table[bordercolor="#999999"][width="100%"] th *,
 form[action="/FIT/st/studyps-l.php.cs"] table[bordercolor="#999999"] th * {
-    background-color: rgb(13, 116, 134);
-    font-weight: normal;
-    font-variant: small-caps;
-    color: whitesmoke;
+  background-color: rgb(13, 116, 134);
+  font-weight: normal;
+  font-variant: small-caps;
+  color: whitesmoke;
 }
 
 table[bordercolor="#999999"][width="100%"] td:not([bgcolor]),
-form[action="/FIT/st/studyps-l.php.cs"] table[bordercolor="#999999"] td:not([bgcolor]) {
-    background-color: #4d4d4d;
+form[action="/FIT/st/studyps-l.php.cs"]
+  table[bordercolor="#999999"]
+  td:not([bgcolor]) {
+  background-color: #4d4d4d;
 }
 
-table[bordercolor="#999999"][width="100%"] tbody tr:first-child td:not([bgcolor]) {
-    background-color: rgb(13, 116, 134);
-    border: none;
+table[bordercolor="#999999"][width="100%"] td:not([bgcolor]) *,
+table[bordercolor="#999999"][width="100%"] td:not([bgcolor]) {
+  color: whitesmoke;
+}
+
+table[bordercolor="#999999"][width="100%"]
+  tbody
+  tr:first-child
+  td:not([bgcolor]) {
+  background-color: rgb(13, 116, 134);
+  border: none;
 }
 
 /********** Buttons **********/
@@ -421,30 +465,19 @@ table[bordercolor="#999999"][width="100%"] tbody tr:first-child td:not([bgcolor]
 .btn,
 button,
 input[type="button"],
+input[type="file"],
 input[type="submit"] {
-    padding: 10px;
-    border-radius: 10px;
-    background-color: black;
-    margin: 10px 0;
-    border: 2px solid transparent;
-    color: whitesmoke !important;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  margin: 10px 0;
+  border: 2px solid transparent;
+  color: whitesmoke !important;
 }
+
 .btn:hover,
 .forminput:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
-    border: 2px solid #00a9e0;
-}
-
-/********** Inputs **********/
-
-input[type="text"],
-input[type="password"],
-select,
-.forminput {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: whitesmoke !important;
-    border: 2px solid transparent;
-    color: black;
+  border: 2px solid #00a9e0;
 }
